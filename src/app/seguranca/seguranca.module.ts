@@ -48,8 +48,8 @@ export function tokenGetter(): string {
     JwtModule.forRoot({
       config: {
         tokenGetter,
-        allowedDomains: ['https://aocosta-algamoney-api.herokuapp.com'],
-        disallowedRoutes: ['https://aocosta-algamoney-api.herokuapp.com/oauth/token']
+        allowedDomains: ['https://ag-m-app.herokuapp.com'],
+        disallowedRoutes: ['https://ag-m-app.herokuapp.com/oauth/token']
       }
     }),
 
